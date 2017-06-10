@@ -9,6 +9,8 @@ Prog.kiev.ua. Java OOP. Группа 53
 
 [Java OOP. Богдан. Группа 53. Лекции 5-6 (03.06.2017)](https://prog.kiev.ua/forum/index.php/topic,2952.0.html)
 
+[Java OOP. Богдан. Группа 53. Лекции 7-8 (10.06.2017)](https://prog.kiev.ua/forum/index.php/topic,2961.0.html)
+
 ## Видео/аудио лекций другой группы
 
 [Видеозапись лекций](https://mega.nz/#F!fI9ACBqB)
