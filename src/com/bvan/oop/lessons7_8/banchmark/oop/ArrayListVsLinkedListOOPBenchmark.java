@@ -11,19 +11,19 @@ import static com.bvan.oop.lessons7_8.banchmark.oop.BenchmarkUtil.printNanoTime;
  */
 public class ArrayListVsLinkedListOOPBenchmark {
 
-    private static final int ELEMS_QUANTITY = 1_000;
+    private static final int ELEMS_QUANTITY = 1_000_000;
 
     public static void main(String[] args) {
-        List<Integer> arrayList = new ArrayList<>();
+        List<Integer> arrayList = new ArrayList<>(ELEMS_QUANTITY);
         addElems(arrayList, ELEMS_QUANTITY, null);
 
         List<Integer> linkedList = new LinkedList<>(arrayList);
 
-        int getPos = ELEMS_QUANTITY/2;
-        System.out.println("Time of get():");
-        printNanoTime("ArrayList:", () -> arrayList.get(getPos));
-        printNanoTime("LinkedList:", () -> linkedList.get(getPos));
-        System.out.println();
+//        int getPos = ELEMS_QUANTITY / 2;
+//        System.out.println("Time of get():");
+//        printNanoTime("ArrayList:", () -> arrayList.get(getPos));
+//        printNanoTime("LinkedList:", () -> linkedList.get(getPos));
+//        System.out.println();
 
         int addPos = ELEMS_QUANTITY/2;
         System.out.println("Time of add():");
